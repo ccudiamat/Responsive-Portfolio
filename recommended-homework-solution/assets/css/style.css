@@ -265,6 +265,10 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px) {
+  #main-container {
+    padding-top: 0px;
+  }
+
   #logo {
     float: center;
     width: 250px;
@@ -286,7 +290,7 @@ input[type=submit] {
   }
 
   .main-section {
-    float: center;
+    float: top;
     width: 100%;
     padding: 30px;
     margin: 0 0 40px;
@@ -312,3 +316,6 @@ input[type=submit] {
   }
 
 }
+
+/* Struggling with how to make nav bar go under the header for 640px */
+/* Still trying to figure out spacing for other resolutions as well and tried my best to fit it to the picture in the assignment */
